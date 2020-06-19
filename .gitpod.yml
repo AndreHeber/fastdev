@@ -1,0 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: gcc main.c -o fastdev
+    command: ./fastdev develop
